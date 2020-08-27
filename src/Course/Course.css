@@ -1,0 +1,22 @@
+.course{
+    display:flex;
+}
+.courseItems{
+    width:70%;
+    margin-left: 20px;
+    margin-right: 5px;
+    border-right: 2px solid lightgray;
+    /* background: red; */
+}
+.card{
+    height: 300px;
+    background: #fff;
+    width: 27%;
+    position: fixed;
+    color: blueviolet;
+    text-align: center;
+    right: 0;
+    margin-right: 15px;
+    margin-top: 15px;
+    box-shadow: 7px 7px 10px gray;
+}

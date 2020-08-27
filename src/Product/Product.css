@@ -1,0 +1,39 @@
+.productDescription{
+    width: 28%;
+   box-shadow: 2px 2px 22px 4px rgba(176,176,176,1);
+   padding: 10px;
+  margin-left: 25px;
+  margin-top: 25px;
+
+   float: left;
+   border-radius: 10px;
+}
+.productImg img{
+    width: 100%;
+    
+}
+
+.productDescription h1{
+    font-weight: 500;
+    font-size: 20px;
+}
+.productDescription p{
+    font-weight: 700;
+    font-size: 16;
+    color: magenta;
+}
+.productDescription h2{
+    font-weight: 500;
+    font-size: 20px;
+    color: red;
+}
+.button{
+    width:100%;
+    padding:10px 15px;
+    color:white;
+    border: 1px solid rgb(0, 133, 0);
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: rgb(0, 194, 33);
+}

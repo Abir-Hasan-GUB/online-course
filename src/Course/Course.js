@@ -3,21 +3,29 @@ import './Course.css'
 import CourseDetails from '../Fake Data/FakeData';
 import { useState } from 'react';
 import Product from '../Product/Product';
+import Cart from '../Cart/Cart';
 const Course = () => {
-    console.log(CourseDetails);
     const [products, setProduct] = useState(CourseDetails);
+    const [cart, setCart] = useState([]);
 
+    // add event handlers 
+    const handleEnrolButton = (course) => {
+        const newCart = [...cart, course];
+        setCart(newCart);
+    };
     return (
         <div className="course">
             <div className="courseItems">
-                <h1>Course Items</h1>
-                <h1>Card Count: {products.length}</h1>
                 {
-                    products.map(product =><Product product={product}></Product> )
+                    products.map(product => <Product
+                        product={product} key={product.key} 
+                        handleEnrolButton={handleEnrolButton}
+                    ></Product>)
                 }
             </div>
-            <div className="card">
-                <h1>Card Items</h1>
+            {/* import cart */}
+            <div className="cartBody"> 
+                <Cart cart={cart}></Cart>
             </div>
         </div>
 

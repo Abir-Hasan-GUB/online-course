@@ -4,17 +4,16 @@
    padding: 10px;
   margin-left: 25px;
   margin-top: 25px;
-
    float: left;
    border-radius: 10px;
 }
 .productImg img{
     width: 100%;
-    
+    border-radius: 10px;
 }
-
 .productDescription h1{
     font-weight: 500;
+    margin: 20px 0;
     font-size: 20px;
 }
 .productDescription p{
@@ -36,4 +35,7 @@
     border-radius: 10px;
     cursor: pointer;
     background: rgb(0, 194, 33);
+}
+.button span{
+   margin-right: 20px;
 }

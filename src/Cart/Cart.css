@@ -1,0 +1,29 @@
+.carts h2{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+.order{
+    font-family: 'Libre Baskerville', serif;
+   font-size: 25px;
+   color: rgb(0, 199, 83);
+   margin-top: 25px;
+}
+.total{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 25px;
+    color: red;
+    margin-top: 25px;
+}
+.checkout{
+    width: 50%;
+    padding: 10px 15px;
+    color: white;
+    border: 1px solid rgb(0, 133, 0);
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:.5s;
+    margin-top: 25px;
+}
